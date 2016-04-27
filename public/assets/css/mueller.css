@@ -1,0 +1,582 @@
+body {
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lato", sans-serif;
+    color: #252a2e !important;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5 {
+    color: #efefe9 !important;
+}
+
+#primary-menu ul li a {
+    padding: 0 5px;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+th.label {
+    display: table-cell;
+    width: 1% !important;
+    white-space: nowrap;
+    text-align: right;
+    padding: 3px;
+}
+
+td {
+    padding: 3px;
+}
+
+table input,
+table select,
+table textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+tr#email-field {
+    display: none;
+}
+
+section {
+    padding: 30px 0 20px 0;
+}
+
+section#content {
+    padding: 0;
+}
+
+.heading-block h1,
+.heading-block h2,
+.heading-block h3,
+.heading-block h4,
+.emphasis-title h1,
+.emphasis-title h2 {
+    font-weight: 900;
+}
+
+.heading-block.center > span,
+.heading-block.title-center > span,
+.center .heading-block > span {
+    max-width: 100%;
+}
+
+.heading-block:after {
+    border-color: #c04355;
+}
+
+.close {
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.modal-header .close {
+    margin-top: -8px;
+}
+
+#header.transparent-header {
+    background: rgba(255, 255, 255, .92);
+}
+
+#header.full-header #logo {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+
+header #logo img {
+    padding: 10px;
+    width: 100%;
+}
+
+#header.full-header #primary-menu > ul {
+    padding-right: 10px;
+    margin-right: 0;
+    border-right: 0;
+}
+
+#header #primary-menu ul li a {
+    font-family: "Lato", sans-serif;
+}
+
+.header-social {
+    display: table;
+    height: 100%;
+    float: right;
+}
+
+.header-social div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-social a {
+    height: 24px;
+    width: 24px;
+    margin-top: -13px;
+    display: inline-block;
+}
+
+.header-social a img {
+    height: 24px;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.device-sm .header-social,
+.device-xs .header-social,
+.device-xxs .header-social {
+    display: none;
+}
+
+@media (max-width:991px) {
+    #primary-menu ul li a,
+    #primary-menu.style-2 > div > ul > li > a {
+        line-height: 40px !important;
+        height: 40px !important;
+    }
+}
+
+#slider {}
+
+#slider img {
+    padding: 10px;
+    background: rgba(0, 0, 0, .4);
+    width: 50%;
+    right: 10%;
+}
+
+.device-md #slider img {
+    width: 40%;
+    right: 10%;
+}
+
+.device-sm #slider img {
+    width: 38%;
+    right: 5%;
+}
+
+.device-xs #slider img,
+.device-xxs #slider img {
+    display: none;
+}
+
+#calls-to-action {
+    padding: 20px 0;
+    border: 0!important;
+    background-color: #1f4880;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+}
+
+.device-xxs #calls-to-action {
+    padding: 10px 0;
+}
+
+#calls-to-action h3 {
+    color: #f2f2f2 !important;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#calls-to-action h3 a {
+    margin-top: -10px;
+    display: block;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.device-xs #calls-to-action h3 a,
+.device-xxs #calls-to-action h3 a {
+    font-size: 2em;
+}
+
+#calls-to-action p,
+#calls-to-action span {
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+#calls-to-action span a {
+    color: inherit;
+}
+
+#calls-to-action a.button {
+    height: auto!important;
+    padding: 5px 20px!important;
+}
+
+#calls-to-action .phone-numbers {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    padding-right: 20px;
+    text-align: right;
+}
+
+#calls-to-action .schedule-online {
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    text-align: left;
+}
+
+.device-xs #calls-to-action .phone-numbers,
+.device-xs #calls-to-action .schedule-online,
+.device-xxs #calls-to-action .phone-numbers,
+.device-xxs #calls-to-action .schedule-online {
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#calls-to-action .schedule-online a.button,
+#schedule-form button.btn-block,
+#services a.button {
+    background-color: #fcb426;
+    color: #1f4880;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.device-xs #calls-to-action .schedule-online a.button,
+.device-xxs #calls-to-action .schedule-online a.button {
+    font-size: 12px;
+    padding: 5px 10px !important;
+    line-height: 25px;
+}
+
+#calls-to-action .schedule-online a.button:hover,
+#schedule-form button.btn-block:hover,
+#services a.button:hover {
+    background-color: #ffc451 !important;
+    opacity: 1;
+}
+
+#calls-to-action .existing-patients p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.device-xs #calls-to-action .existing-patients p,
+.device-xxs #calls-to-action .existing-patients p {
+    font-size: 20px;
+}
+
+#calls-to-action .existing-patients p a {
+    font-weight: bold;
+}
+
+.device-xs #calls-to-action .existing-patients p a,
+.device-xxs #calls-to-action .existing-patients p a {
+    margin-top: -10px;
+    display: block;
+}
+
+#team {
+    background-color: #efefe9;
+}
+
+.team-content {
+    color: #000;
+    font-size: 1.1em;
+}
+
+.team-title h4 {
+    font-weight: 900;
+}
+
+#team .oc-item {
+    padding: .5em;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.device-xs #team .oc-item p,
+.device-xxs .oc-item p {
+    display: none;
+}
+
+.device-xs #team .oc-item p:first-child,
+.device-xxs .oc-item p:first-child {
+    display: block;
+}
+
+#specials {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+}
+
+#new-patient-exam .pricing-title {
+    background-color: #c04355;
+}
+
+#new-patient-cleaning .pricing-title {
+    background-color: #36a9ae;
+}
+
+#new-childrens-cleaning-exam .pricing-title {
+    background-color: #1f4880;
+}
+
+#new-patient-exam .pricing-title h3,
+#new-patient-cleaning .pricing-title h3,
+#new-childrens-cleaning-exam .pricing-title h3 {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#new-patient-exam p,
+#new-patient-cleaning p,
+#new-childrens-cleaning-exam p {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#specials .pricing-price {
+    font-weight: 700;
+}
+
+#specials .pricing-box {
+    background-color: #f8f8f6;
+}
+
+@media (min-width:768px) {
+    #specials .col-sm-4 {
+        width: 32%;
+        margin-right: 2%;
+    }
+    #specials .col-sm-4:last-child {
+        margin-right: 0;
+    }
+}
+
+.dark .pricing-features,
+.pricing-features {
+    border-bottom: none;
+}
+
+#reviews {
+    background: url(../img/slides/testimonials.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+#reviews .testi-content p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#reviews .stars {
+    font-size: 2em;
+    padding: 3px;
+}
+
+#members {
+    background-color: #efefe9;
+}
+
+#members .pricing-box.pricing-extended {
+    background-color: #ffffff;
+}
+
+#members .pricing-box.pricing-extended .pricing-action-area {
+    background-color: #36a9ae;
+    color: #ffffff;
+}
+
+#members .pricing-box.pricing-extended .pricing-meta,
+#members .pricing-price span.price-tenure,
+#members .pricing-price {
+    color: #ffffff;
+}
+
+#members .pricing-box a.button {
+    background-color: #1f4880;
+}
+
+#members .pricing-box a.button:hover {
+    background-color: #1850a2 !important;
+}
+
+#services {
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+#services .portfolio-item {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+#services .portfolio-item img {
+    padding: .5em;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#services .portfolio-desc {
+    padding: 0 0 5px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#services .portfolio-4 .portfolio-desc h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px 0 0 0;
+}
+
+#forms {
+    background-color: #efefe9;
+}
+
+.device-xs #forms .tleft,
+.device-xs #forms .tright,
+.device-xxs #forms .tleft,
+.device-xxs #forms .tright {
+    text-align: center !important;
+}
+
+#links {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background-color: #f8f8f6;
+    padding: 30px 0 50px 0;
+}
+
+#links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#links li {
+    list-style;
+    none;
+    margin-bottom: 10px;
+}
+
+#links li a {
+    color: #252a2e;
+    background: url(../img/icons/widget-link.png) 0% 50% no-repeat;
+    padding-left: 15px;
+}
+
+#location {
+    padding: 0;
+}
+
+#location #contact-form-overlay,
+#contact-form-overlay-mini {
+    padding: 30px;
+}
+
+#location h3 {
+    color: #1f4880 !important;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#location address {
+    font-size: 1.2em;
+}
+
+#location h3 a {
+    margin-top: -10px;
+    display: block;
+    color: #1f4880;
+    font-size: 2.5em;
+}
+
+.device-xxs #location h3 a {
+    font-size: 2em;
+}
+
+#location p,
+#location span,
+#location address a {
+    color: #1f4880;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#location address p a {
+    text-decoration: underline !important;
+}
+
+#location .schedule-online a.button {
+    background-color: #fcb426;
+    color: #1f4880;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    margin: 20px 0 0 0;
+}
+
+#location .schedule-online a.button:hover {
+    background-color: #ffc451 !important;
+    opacity: 1;
+}
+
+.device-xxs #location .schedule-online a.button {
+    font-size: 11px;
+}
+
+#location .existing-patients {
+    font-size: 16px;
+    margin: 0;
+}
+
+#location .existing-patients a {
+    color: inherit;
+    font-weight: bold;
+}
+
+.device-xxs #location .existing-patients a {
+    margin-top: -10px;
+    font-size: 1.855em;
+    display: block;
+    font-weight: bold;
+}
+
+#connect {
+    background-color: #36a9ae;
+}
+
+#footer.dark,
+.dark #footer {
+    background-color: #0e3d3f;
+}
+
+#footer .col_two_third,
+#footer .col_one_third {
+    margin-bottom: 0;
+}
