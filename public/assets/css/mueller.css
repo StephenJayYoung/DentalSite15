@@ -393,33 +393,6 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 @media (max-width:768px){section#reviews{padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
 }
 
-#members {
-    background-color: #efefe9;
-}
-
-#members .pricing-box.pricing-extended {
-    background-color: #ffffff;
-}
-
-#members .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #36a9ae;
-    color: #ffffff;
-}
-
-#members .pricing-box.pricing-extended .pricing-meta,
-#members .pricing-price span.price-tenure,
-#members .pricing-price {
-    color: #ffffff;
-}
-
-#members .pricing-box a.button {
-    background-color: #1f4880;
-}
-
-#members .pricing-box a.button:hover {
-    background-color: #1850a2 !important;
-}
-
 #services {
     background-color: #ffffff;
     border-top: 1px solid rgba(0, 0, 0, .1);
@@ -462,6 +435,29 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 .device-xxs #forms .tright {
     text-align: center !important;
 }
+
+#gallery{
+	background-color: #e7e6e1;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.owl-carousel .owl-item {
+    box-sizing: border-box;
+    padding: .6em;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background-color: #095f68 !important;
+    color: #FFF !important;
+    text-decoration: none;
+}
+
+
 
 #links {
     border-top: 1px solid rgba(0, 0, 0, .1);
