@@ -425,9 +425,15 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
     padding: 3px 0 0 0;
 }
 
-#forms {
-    background-color: #efefe9;
+section#forms {
+    margin-top:0;
+    padding-top:30px;
+    margin-bottom:0;
+    padding-bottom:30px;
+    background-image:url('../images/forms-background.jpg');
+    background-size:cover;
 }
+
 
 .device-xs #forms .tleft,
 .device-xs #forms .tright,
