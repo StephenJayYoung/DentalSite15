@@ -20,6 +20,13 @@ h5 {
     color: #efefe9 !important;
 }
 
+.heading-block > span:not(.before-heading) {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #50403c;
+}
+
 #primary-menu ul li a {
     padding: 0 5px;
 }
@@ -262,6 +269,7 @@ header #logo img {
 
 .click-for-info{
     margin-bottom: 0px !important;
+    color: #50403c !important;
 }
 
 .device-xs #calls-to-action .schedule-online a.button,
@@ -345,15 +353,15 @@ header #logo img {
 }
 
 #new-patient-exam .pricing-title {
-    background-color: #c04355;
+    background-color: #487b7e;
 }
 
 #new-patient-cleaning .pricing-title {
-    background-color: #36a9ae;
+    background-color: #487b7e;
 }
 
 #new-childrens-cleaning-exam .pricing-title {
-    background-color: #1f4880;
+    background-color: #487b7e;
 }
 
 #new-patient-exam .pricing-title h3,
@@ -372,10 +380,23 @@ header #logo img {
 
 #specials .pricing-price {
     font-weight: 700;
+    color: #000;
 }
 
 #specials .pricing-box {
-    background-color: #f8f8f6;
+    background-color: #fff;
+}
+
+.pricing-features li {
+    color: #000;
+}
+
+.pricing-title {
+    padding: 15px 0;
+    background-color: #487b7e !important;
+    border-radius: none !important;
+    text-shadow: 1px 1px 1px #FFF;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 @media (min-width:768px) {
@@ -587,4 +608,8 @@ section#forms .button:hover{
 #footer .col_two_third,
 #footer .col_one_third {
     margin-bottom: 0;
+}
+
+#gotoTop:hover{
+    background-color: #487b7e;
 }
