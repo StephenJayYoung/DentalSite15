@@ -75,9 +75,6 @@ section#content {
     max-width: 100%;
 }
 
-.heading-block:after {
-    border-color: #c04355;
-}
 
 .close {
     float: right;
@@ -164,7 +161,7 @@ header #logo img {
 #slider img {
     padding: 10px;
     background: rgba(0, 0, 0, .4);
-    width: 50%;
+    width: 31%;
     right: 10%;
 }
 
