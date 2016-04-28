@@ -447,6 +447,16 @@ section#forms {
     background-size:cover;
 }
 
+section#forms .button{
+    background-color:#487b7e !important;
+    color: #fff;
+}
+
+section#forms .button:hover{
+    background-color:#39696c !important;
+    color: #fff;
+}
+
 
 .device-xs #forms .tleft,
 .device-xs #forms .tright,
@@ -471,9 +481,13 @@ section#forms {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background-color: #095f68 !important;
+    background-color: #487b7e !important;
     color: #FFF !important;
     text-decoration: none;
+}
+
+.dark .portfolio-overlay a:hover {
+    background-color: #487b7e
 }
 
 
@@ -567,7 +581,7 @@ section#forms {
 
 #footer.dark,
 .dark #footer {
-    background-color: #0e3d3f;
+    background-image:url('../images/footer.jpg');background-size:cover;
 }
 
 #footer .col_two_third,
