@@ -380,20 +380,17 @@ header #logo img {
     border-bottom: none;
 }
 
-#reviews {
-    background: url(../img/slides/testimonials.jpg) 50% 50% no-repeat;
-    background-size: cover;
-}
-
-#reviews .testi-content p {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-}
-
-#reviews .stars {
-    font-size: 2em;
-    padding: 3px;
+section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30px;background-image:url('../images/reviews-background.jpg');background-size:cover;}
+#reviews h2,
+#reviews .heading-block > span:not(.before-heading),
+#reviews .heading-block:after,
+#reviews .stars,
+#reviews .testi-content p,
+#reviews .testimonial-full .testi-meta,
+#reviews .testi-meta span{border-color:#ffffff;color:#ffffff;}
+.testi-content p{font-family:"Lato", sans-serif;font-style:normal;font-weight:300;}
+.testi-content .stars{font-size:2em;}
+@media (max-width:768px){section#reviews{padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
 }
 
 #members {
