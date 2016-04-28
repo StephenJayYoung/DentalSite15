@@ -260,6 +260,10 @@ header #logo img {
     opacity: 1;*/
 }
 
+.click-for-info{
+    margin-bottom: 0px !important;
+}
+
 .device-xs #calls-to-action .schedule-online a.button,
 .device-xxs #calls-to-action .schedule-online a.button {
     font-size: 12px;
@@ -337,7 +341,7 @@ header #logo img {
 
 #specials {
     border-top: 1px solid rgba(0, 0, 0, .1);
-    background-color: #ffffff;
+    background-color: #e8e7dd ;
 }
 
 #new-patient-exam .pricing-title {
@@ -403,7 +407,7 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 }
 
 #services {
-    background-color: #ffffff;
+    background-image:url('../images/sand-texture.jpg');background-size:cover;
     border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -452,7 +456,7 @@ section#forms {
 }
 
 #gallery{
-	background-color: #e7e6e1;
+	background-color: #324155;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -533,15 +537,13 @@ section#forms {
     }
 
     #location a.button {
-        background-color: #ff6400;
+        background-color: #487b7e;
         color: #ffffff;
-        border-color: #ffffff;
     }
 
     #location a.button:hover {
-        background-color: #333333;
+        background-color: #39696c;
         color: #ffffff;
-        border-color: #ffffff;
     }
 
     #location h3, #location .existing-patients {
@@ -550,7 +552,7 @@ section#forms {
     }
 
         #location h3 a {
-            color: #ff6400 !important;
+            color: #487b7e !important;
             font-size: 2em;
         }
 
