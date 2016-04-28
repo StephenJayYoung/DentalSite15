@@ -1,5 +1,6 @@
 body {
     font-weight: 300;
+    color: #50403c;
 }
 
 h1,
@@ -8,7 +9,7 @@ h3,
 h4,
 h5 {
     font-family: "Lato", sans-serif;
-    color: #252a2e !important;
+    color: #000 !important;
 }
 
 .dark h1,
@@ -183,7 +184,7 @@ header #logo img {
 #calls-to-action {
     padding: 20px 0;
     border: 0!important;
-    background-color: #1f4880;
+    background-color: #487b7e;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
     border-radius: 3px;
 }
@@ -252,10 +253,11 @@ header #logo img {
 #calls-to-action .schedule-online a.button,
 #schedule-form button.btn-block,
 #services a.button {
-    background-color: #fcb426;
-    color: #1f4880;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
-    opacity: 1;
+    background-color: #dab24c;
+    color: #fff;
+    border: 1px solid #dab24c;
+/*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    opacity: 1;*/
 }
 
 .device-xs #calls-to-action .schedule-online a.button,
@@ -268,8 +270,9 @@ header #logo img {
 #calls-to-action .schedule-online a.button:hover,
 #schedule-form button.btn-block:hover,
 #services a.button:hover {
-    background-color: #ffc451 !important;
-    opacity: 1;
+    background-color: #b8902b !important;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 #calls-to-action .existing-patients p {
@@ -293,12 +296,21 @@ header #logo img {
 }
 
 #team {
-    background-color: #efefe9;
+    background-image:url('../images/sand-texture.jpg');background-size:cover;}
 }
 
 .team-content {
-    color: #000;
+    color: #50403c;
     font-size: 1.1em;
+}
+
+.team-title span {
+    color: #50403c;
+}
+
+.team-content {
+    margin-top: 15px;
+    color: #50403c;
 }
 
 .team-title h4 {
@@ -308,7 +320,7 @@ header #logo img {
 #team .oc-item {
     padding: .5em;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #e8e7dd;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
@@ -449,7 +461,7 @@ section#forms {
     box-sizing: border-box;
     padding: .6em;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #e8e7dd;
     border-radius: 10px;
     user-select: none;
 }
