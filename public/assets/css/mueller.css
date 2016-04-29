@@ -49,6 +49,21 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > 
     color: #dab24c !important;
 }
 
+.device-sm #logo img {
+    padding-bottom: 20px !important;
+    padding-top: 7px !important;
+}
+
+.device-xs #logo img {
+    padding-bottom: 20px !important;
+    padding-top: 7px !important;
+}
+
+.device-xxs #logo img {
+    padding-bottom: 20px !important;
+    padding-top: 7px !important;
+}
+
 table {
     width: 100%;
     padding: 10px;
@@ -139,8 +154,8 @@ header #logo img {
 }
 
 #header #primary-menu ul li a {
-    font-family: "Lato", sans-serif;
-}
+/*    font-family: "Lato", sans-serif;
+*/}
 
 .header-social {
     display: table;
@@ -268,13 +283,11 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 .button:hover {
-        font-family:'Lato', sans-serif;
     background-color: #0b5f62 !important;
     color: #fff !important;
 }
 
 .button.button-3d:hover{
-        font-family:'Lato', sans-serif;
     background-color: #9c3241 !important;
     color: #fff !important;
 }
@@ -669,7 +682,7 @@ section#forms {
 }
 
 .device-xs section#forms .forms-btn{
-    padding-left: 60px !important;
+    padding-left: 65px !important;
 }
 
 
@@ -731,6 +744,11 @@ section#forms .button:hover{
     margin: 0 auto;
     z-index: 10;
     border-radius: 4px;
+}
+
+.device-xxs #location .existing-patients {
+    color: #50403c !important;
+    font-size: 14px;
 }
 
 .device-sm .mobile-location-logo{
