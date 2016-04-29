@@ -531,6 +531,10 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 .new-patient-exam-padding{
+    padding-bottom: 60px;
+}
+
+.dental-cleaning-padding{
     padding-bottom: 30px;
 }
 
@@ -596,6 +600,17 @@ nav#primary-menu.statick-sticky > ul{
     border-bottom: none;
 }
 
+.device-md .new-patient-exam-padding{
+    padding-bottom: 90px;
+}
+
+.device-sm .new-patient-exam-padding{
+    padding-bottom: 120px;
+}
+
+
+
+
 section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30px;background-image:url('../images/reviews-background.jpg');background-size:cover;}
 #reviews h2,
 #reviews .heading-block > span:not(.before-heading),
@@ -654,7 +669,7 @@ section#forms {
 }
 
 .device-xs section#forms .forms-btn{
-    padding-left: 60px;
+    padding-left: 60px !important;
 }
 
 
