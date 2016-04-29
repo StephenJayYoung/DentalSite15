@@ -207,7 +207,7 @@ header #logo img {
 
 @media (min-width: 991px) and (max-width: 1200px){
     #primary-menu ul li a {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -234,10 +234,6 @@ header #logo img {
 
 .responsive-sticky-header #header-wrap {
     background-color: #fff !important;
-}
-
-#primary-menu ul li a {
-  font-family: 'Raleway', sans-serif !important;
 }
 
 @media (max-width: 991px) {
@@ -282,16 +278,6 @@ nav#primary-menu.statick-sticky > ul{
   line-height: 35px;
 }
 
-.button:hover {
-    background-color: #0b5f62 !important;
-    color: #fff !important;
-}
-
-.button.button-3d:hover{
-    background-color: #9c3241 !important;
-    color: #fff !important;
-}
-
 #header.full-header #logo {
   padding-right: 30px;
   margin-right: 30px;
@@ -303,11 +289,11 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-    color: #ee19b4 !important;
+    color: #dab24c !important;
 }
 
 #primary-menu > ul > li a:hover {
-    color: #ee19b4  !important;
+    color: #dab24c  !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -317,20 +303,20 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-    color: #555 !important;
+    color: ##50403c !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #555;
+    color: #50403c;
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #ee19b4  !important;
+    color: #dab24c  !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #ee19b4 !important;
+    color: #dab24c !important;
 }
 
 #primary-menu ul li a {
