@@ -31,6 +31,19 @@ h5 {
     padding: 0 5px;
 }
 
+#primary-menu > ul > li:hover a, #primary-menu > ul > li.current a {
+    color: #dab24c !important;
+}
+
+@media (max-width: 991px)
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
+    color: #dab24c !important;
+}
+
+#primary-menu > ul > li.current a {
+    color: #dab24c !important;
+}
+
 table {
     width: 100%;
     padding: 10px;
@@ -562,7 +575,7 @@ section#forms .button:hover{
     }
 
     #location address a {
-        color: inherit;
+        color: #487b7e;
     }
 
     #location address strong {
@@ -574,6 +587,7 @@ section#forms .button:hover{
     #location a.button {
         background-color: #487b7e;
         color: #ffffff;
+        margin-top: 10px !important;
     }
 
     #location a.button:hover {
@@ -582,7 +596,7 @@ section#forms .button:hover{
     }
 
     #location h3, #location .existing-patients {
-        color: #333 !important;
+        color: #000 !important;
         font-size: 16px;
     }
 
@@ -592,9 +606,19 @@ section#forms .button:hover{
         }
 
         #location .existing-patients a {
-            color: inherit;
+            color: #487b7e;
             font-weight: bold;
         }
+
+.existing-patients p{
+    color:#487b7e;
+    font-size:1.3em;
+    margin-bottom: 10px;
+}
+
+#calls-to-action .existing-patients a{
+    color:inherit
+}
 
 #connect {
     background-color: #36a9ae;
