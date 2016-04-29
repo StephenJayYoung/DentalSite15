@@ -199,6 +199,12 @@ header #logo img {
 
 /*Code for new header stuff*/
 
+@media (max-width: 991px)
+#primary-menu ul li:hover{
+color: red !important;
+}
+
+
 #logo {
     margin-right: 10px;
     height: 75px;
@@ -207,7 +213,7 @@ header #logo img {
 
 @media (min-width: 991px) and (max-width: 1200px){
     #primary-menu ul li a {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
