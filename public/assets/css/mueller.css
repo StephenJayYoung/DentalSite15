@@ -850,9 +850,21 @@ section#forms .button:hover{
     background-color: #36a9ae;
 }
 
-#footer.dark,
+/*#footer.dark,
 .dark #footer {
     background-image:url('../images/footer.jpg');background-size:cover;
+    height: 260px;
+}*/
+
+
+#copyrights {
+background-image:url('../images/footer.jpg');background-size:cover;
+  color: #9b9992 !important;
+  height: 260px;
+}
+
+.footer-text-bottom{
+    margin-top: 8em;
 }
 
 #footer .col_two_third,
