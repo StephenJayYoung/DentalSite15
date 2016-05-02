@@ -395,14 +395,22 @@ nav#primary-menu.statick-sticky > ul{
     right: 10%;
 }
 
-.device-md #slider img {
+/*.device-md #slider img {
     width: 40%;
     right: 10%;
-}
+}*/
 
 .device-sm #slider img {
     width: 38%;
     right: 5%;
+}
+
+@media(min-width: 991px) and (max-width: 1150px){
+
+   #slider img {
+    width: 34%;
+    right: 10%;
+} 
 }
 
 .device-xs #slider img,
