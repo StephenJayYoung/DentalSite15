@@ -124,8 +124,6 @@ section#content {
     max-width: 100%;
 }
 
-
-
 .close {
     font-size: 90px;
     line-height: .24;
@@ -144,7 +142,6 @@ section#content {
 
 .modal-title {
     font-size: 19px !important;
-    }
 }
 
 .modal-body a {
@@ -193,10 +190,6 @@ header #logo img {
     margin-right: 0;
     border-right: 0;
 }
-
-#header #primary-menu ul li a {
-/*    font-family: "Lato", sans-serif;
-*/}
 
 .header-social {
     display: table;
@@ -326,7 +319,7 @@ nav#primary-menu.statick-sticky > ul{
 #header.full-header #logo {
   padding-right: 30px;
   margin-right: 30px;
-  border-right:none; 
+  border-right:none;
 }
 
 #primary-menu ul li a {
@@ -374,8 +367,6 @@ nav#primary-menu.statick-sticky > ul{
     border-right: none;
 }
 
-
-
 /*End code for new header stuff*/
 
 #slider{
@@ -402,33 +393,16 @@ nav#primary-menu.statick-sticky > ul{
     right: 10%;
 }
 
-/*.device-sm #slider{
-    background: url('/images/slider/slide.jpg'); background-size: cover;" 
-}*/
-
-
-/*.device-sm #header.transparent-header + #slider, #header.transparent-header + #page-title.page-title-parallax, #slider + #header.transparent-header, #header.transparent-header.floating-header + #slider {
-    background: url('../images/slider/slide.jpg') !important;
-    background-size: cover;
-}*/
-
-
-/*.device-md #slider img {
-    width: 40%;
-    right: 10%;
-}*/
-
 .device-sm #slider img {
     width: 38%;
     right: 5%;
 }
 
 @media(min-width: 991px) and (max-width: 1150px){
-
    #slider img {
-    width: 34%;
-    right: 10%;
-} 
+        width: 34%;
+        right: 10%;
+    }
 }
 
 .device-xs #slider img,
@@ -512,13 +486,7 @@ nav#primary-menu.statick-sticky > ul{
     background-color: #dab24c;
     color: #fff;
     border: 1px solid #dab24c;
-/*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
-    opacity: 1;*/
 }
-
-/*#services .portfolio-item {
-    border: 1px solid #000;
-}*/
 
 #services .portfolio-item:hover{
     border: 1px solid #000;
@@ -709,18 +677,9 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 
 
 .device-xs section#reviews {padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
-}
 
 .device-sm section#reviews {padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
-}
 
-#services {
-/*    background-image:url('../images/sand-texture.jpg');
-*/    
-/*background-image:url('../images/reviews-background.jpg');background-size:cover;
-*/
-/*border-top: 1px solid rgba(0, 0, 0, .1);
-*/}
 
 #services .portfolio-item {
     border-radius: 5px;
@@ -758,15 +717,6 @@ section#forms {
     background-size:cover;
 }
 
-/*.device-xs section#forms{
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#e8e7dd;
-    background-image:none;
-    background-size:cover;}
-}*/
-
-
 @media(min-width: 480px) and (max-width: 768px) {
     .forms-btn{
         padding-left: 65px !important;
@@ -779,10 +729,6 @@ section#forms {
     background-image:none;
     background-size:cover;
 }
-
-/*.device-xs section#forms .forms-btn{
-    padding-left: 65px !important;
-}*/
 
 section#forms .button{
     background-color:#487b7e !important;
