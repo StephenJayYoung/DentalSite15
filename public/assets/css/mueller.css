@@ -41,11 +41,11 @@ h5 {
 }
 
 #header-wrap {
-    opacity: 0.9;
+    opacity: 0.98;
 }
 
 .sticky-header{
-    opacity: 0.9;
+    opacity: 0.98;
 }
 
 @media (max-width: 991px)
@@ -240,12 +240,6 @@ header #logo img {
 
 /*Code for new header stuff*/
 
-@media (max-width: 991px)
-#primary-menu ul li:hover{
-color: red !important;
-}
-
-
 #logo {
     margin-right: 10px;
     height: 75px;
@@ -305,8 +299,12 @@ color: red !important;
     }
 }
 
+#primary-menu ul li a {
+    line-height: 75px;
+}
+
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
-    line-height: 95px;
+    line-height: 75px;
 }
 
 @media (max-width: 991px) {
@@ -386,11 +384,6 @@ nav#primary-menu.statick-sticky > ul{
     background: rgba(0, 0, 0, .4);
     width: 37%;
     right: 10%;
-}
-
-#header.transparent-header + #slider, #header.transparent-header + #page-title.page-title-parallax, #header.transparent-header + #google-map, #slider + #header.transparent-header {
-    top: -76px;
-    margin-bottom: -80px;
 }
 
 /*.device-md #slider img {
@@ -750,7 +743,7 @@ section#forms {
     padding-bottom:10px;
     background-color:#e8e7dd;
     background-image:none;
-    background-size:cover;}
+    background-size:cover;
 }
 
 /*.device-xs section#forms .forms-btn{

@@ -98,7 +98,7 @@
 				</div>
 			</header><!-- #header end -->
 
-			<section id="slider" class="slider-parallax" style="background: url('assets/images/slider/slide.jpg'); background-size: cover;" data-height-lg="600" data-height-md="500" data-height-sm="400" data-height-xs="250" data-height-xxs="200">
+			<section id="slider" class="slider-parallax" style="background: url('assets/images/slider/slider-mueller.jpg'); background-size: cover;" data-height-lg="600" data-height-md="500" data-height-sm="400" data-height-xs="250" data-height-xxs="200" data-bgposition="center bottom">
 				<div class="container clearfix">
 					<div class="vertical-middle center">
 						<img src="assets/images/slider/headline.svg" class="pull-right hidden-sm hidden-xs hidden-xxs" />
@@ -1110,7 +1110,7 @@
                             <div class="col-lg-5 col-md-6 col-sm-7 hidden-xs hidden-xxs">
                                 <p class="nobottommargin" style="color: #fff; text-shadow: 1px 1px #000;">Copyright &copy; <script>document.write(+new Date().getFullYear());</script> All Rights Reserved by <a href="http://www.tysonsteele.com" style="color: #fff;" target="_blank">Tyson Steele Associates</a>.</p>
                             </div>
-                            <div class="col-lg-4 col-lg-push-5 col-md-4 col-md-push-3 col-sm-5 col-sm-push-3 col-xs-12 col-xs-push-4 col-xxs-12 col-xxs-push-2">
+                            <div class="col-lg-4 col-lg-push-5 col-md-4 col-md-push-3 col-sm-5 col-sm-push-3 col-xs-12 col-xs-push-4 col-xxs-12">
 
 								<!-- FACEBOOK -->
 								<a href="https://www.facebook.com/Chris-Mueller-DDS-114348938623835/" target="_blank" class="nobottommargin" style="margin-right: 10px;">
@@ -1154,10 +1154,14 @@
         <script type="text/javascript" src="assets/js/jquery.appointments.js"></script>
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 
+
+        <!-- Specials Heading Template
+        ============================================= -->
         <script type="text/template" id="specials-template">
-				<h2>Limited Time <%-  data.season %> Specials</h2>
-				<span style="font-size: 23px; font-weight: bold">Offer ends <%= data.endMonth %> <%= data.endDay %>, <%= data.endYear %></span>
+            <h2 style="color: #fff;">Limited Time <%-  data.season %>&nbsp;Specials</h2>
+            <span style="font-size: 23px; font-weight: bold">Offer ends <%= data.endMonth %>&nbsp;<%= data.endDay %>,&nbsp;<%= data.endYear %><br /></span><span style="    font-weight: normal; font-size: 17px;"><strong>New uninsured patients only.</strong></span>
         </script>
+
 
         <script type="text/javascript">
 
