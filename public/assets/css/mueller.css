@@ -172,6 +172,11 @@ section#content {
     border-right: 0;
 }
 
+.full-header{
+    height: 80px; 
+    opacity: 0.9;
+}
+
 header #logo img {
     padding: 10px;
     width: 100%;
@@ -591,11 +596,10 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 .testi-content p{font-family: 'Open Sans', sans-serif;font-style:normal;font-weight:300;}
 .testi-content .stars{font-size:2em;}
 
-
-.device-xs section#reviews {padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
-
-.device-sm section#reviews {padding-top:10px;padding-bottom:10px;background-color:#34495E;background-image:none;background-size:cover;}
-
+.subtitle-one{
+    color: #fff; 
+    text-decoration: underline !important;
+}
 
 #services .portfolio-item {
     border-radius: 5px;
@@ -695,6 +699,18 @@ section#forms .button:hover{
     margin: 0 auto;
     z-index: 10;
     border-radius: 4px;
+}
+
+.desktop-address{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px
+}
+
+.mobile-address{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
 }
 
 .device-xxs #location .existing-patients {
