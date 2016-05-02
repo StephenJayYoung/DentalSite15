@@ -44,11 +44,6 @@ h5 {
     opacity: 0.98;
 }
 
-@media (max-width: 991px)
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #dab24c !important;
-}
-
 #primary-menu > ul > li.current a {
     color: #dab24c !important;
 }
@@ -226,10 +221,8 @@ header #logo img {
     width: 300px;
 }
 
-@media (min-width: 991px) and (max-width: 1200px){
-    #primary-menu ul li a {
-        font-size: 11px;
-    }
+.device-md #primary-menu ul li a {
+    font-size: 11px;
 }
 
 #logo img {
@@ -635,12 +628,9 @@ section#forms {
     background-image:url('../images/forms-background.jpg');
     background-size:cover;
 }
-
-@media(min-width: 480px) and (max-width: 768px) {
-    .forms-btn{
+.device-xs .forms-btn{
         padding-left: 65px !important;
     }
-}
 
 .device-xxs section#forms{padding-top:10px;
     padding-bottom:10px;
