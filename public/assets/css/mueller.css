@@ -381,18 +381,16 @@ nav#primary-menu.statick-sticky > ul{
 /*End code for new header stuff*/
 
 
-
-
-
-
-
-#slider {}
-
 #slider img {
     padding: 10px;
     background: rgba(0, 0, 0, .4);
     width: 37%;
     right: 10%;
+}
+
+#header.transparent-header + #slider, #header.transparent-header + #page-title.page-title-parallax, #header.transparent-header + #google-map, #slider + #header.transparent-header {
+    top: -76px;
+    margin-bottom: -80px;
 }
 
 /*.device-md #slider img {
