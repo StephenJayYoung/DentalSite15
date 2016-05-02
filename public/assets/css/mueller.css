@@ -369,6 +369,11 @@ nav#primary-menu.statick-sticky > ul{
 
 /*End code for new header stuff*/
 
+
+
+
+
+
 #slider{
     background: url('../images/slider/slider-mueller.jpg'); background-size: cover;
 }
@@ -661,9 +666,6 @@ nav#primary-menu.statick-sticky > ul{
     padding-bottom: 120px;
 }
 
-
-
-
 section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30px;background-image:url('../images/reviews-background.jpg');background-size:cover;}
 #reviews h2,
 #reviews .heading-block > span:not(.before-heading),
@@ -710,7 +712,6 @@ section#reviews{margin-top:0;padding-top:30px;margin-bottom:0;padding-bottom:30p
 
 section#forms {
     margin-top:0;
-/*    padding-top:30px;*/
     margin-bottom:0;
     padding-bottom:30px;
     background-image:url('../images/forms-background.jpg');
@@ -740,15 +741,7 @@ section#forms .button:hover{
     color: #fff;
 }
 
-
-.device-xs #forms .tleft,
-.device-xs #forms .tright,
-.device-xxs #forms .tleft,
-.device-xxs #forms .tright {
-    text-align: center !important;
-}
-
-#gallery{
+#gallery {
 	background-color: #324155;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -820,78 +813,57 @@ section#forms .button:hover{
     }
 }
 
-    #location #map-overlay {
-        position: relative;
-        padding: 20px 0;
-    }
-
-    #location #contact-form-overlay, #contact-form-overlay-mini {
-        padding: 10px;
-        text-align: center;
-    }
-
-    #location address {
-        line-height: 1;
-        font-size: 1.2em;
-    }
-
-    #location address a {
-        color: #034ea2;
-    }
-
-    #location address strong {
-        display: block;
-        margin-top: 10px;
-        font-size: 1.05em;
-    }
-
-    #location a.button {
-        background-color: #487b7e;
-        color: #ffffff;
-        margin-top: 10px !important;
-    }
-
-    #location a.button:hover {
-        background-color: #39696c;
-        color: #ffffff;
-    }
-
-    #location h3, #location .existing-patients {
-        color: #50403c !important;
-        font-size: 16px;
-    }
-
-        #location h3 a {
-            color: #034ea2 !important;
-            font-size: 2em;
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        #location .existing-patients a {
-            color:#034ea2 !important;
-            font-weight: bold;
-        }
-
-.existing-patients p{
-    color:#487b7e;
-    font-size:1.3em;
-    margin-bottom: 10px;
+#location #map-overlay {
+    position: relative;
+    padding: 20px 0;
 }
 
-#calls-to-action .existing-patients a{
-    color:inherit
+#location #contact-form-overlay, #contact-form-overlay-mini {
+    padding: 10px;
+    text-align: center;
 }
 
-#connect {
-    background-color: #36a9ae;
+#location address {
+    line-height: 1;
+    font-size: 1.2em;
 }
 
-/*#footer.dark,
-.dark #footer {
-    background-image:url('../images/footer.jpg');background-size:cover;
-    height: 260px;
-}*/
+#location address a {
+    color: #034ea2;
+}
 
+#location address strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.05em;
+}
+
+#location a.button {
+    background-color: #487b7e;
+    color: #ffffff;
+    margin-top: 10px !important;
+}
+
+#location a.button:hover {
+    background-color: #39696c;
+    color: #ffffff;
+}
+
+#location h3, #location .existing-patients {
+    color: #50403c !important;
+    font-size: 16px;
+}
+
+#location h3 a {
+    color: #034ea2 !important;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#location .existing-patients a {
+    color:#034ea2 !important;
+    font-weight: bold;
+}
 
 #copyrights {
 background-image:url('../images/footer.jpg');background-size:cover;
@@ -903,10 +875,6 @@ background-image:url('../images/footer.jpg');background-size:cover;
     margin-top: 8em;
 }
 
-#footer .col_two_third,
-#footer .col_one_third {
-    margin-bottom: 0;
-}
 
 #gotoTop:hover{
     background-color: #487b7e;
